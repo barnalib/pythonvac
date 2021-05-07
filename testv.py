@@ -96,4 +96,7 @@ def publish_text_message():
         'statusCode': 200,
         'body': json.dumps(test_list)
     }
-publish_text_message()    
+i=1
+while i < 6:
+   publish_text_message()   
+   time.sleep(300)
